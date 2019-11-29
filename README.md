@@ -22,4 +22,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## vuex study
 good stydu day day up;
 ## 展示区
-![image](./img/home.jpg)
+<a href="./img/home.jpg"><img src="./img/home.jpg" width="40%"/></a> 
