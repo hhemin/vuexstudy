@@ -20,6 +20,6 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## vuex study
-good stydu day day up～～～
+good stydu day day up～～～ 版本修改1
 ## 展示区
 ![image](./img/home.jpg)
