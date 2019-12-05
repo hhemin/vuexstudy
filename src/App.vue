@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      {{this.$store.state.tabindex}}
+      {{this.$store.state.pagetitle}}
     </header>
     <!-- <img src="./assets/logo.png"> -->
     <router-view style="padding-top:50px"/>

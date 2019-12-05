@@ -6,7 +6,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state:{
     count:1,
-    tabindex:0,
+    pagetitle:0,
   },
   // 检测state的变化，如果stare变化这个就触发
   getters:{
@@ -23,9 +23,9 @@ const store = new Vuex.Store({
       state.count -=1;
     },
     tabactive(state,title) {
-      state.tabindex = title;
-      
-      console.log(state.tabindex)
+      state.pagetitle = title;
+
+      console.log(state.pagetitle)
     } 
   },
   // 类似methods
@@ -36,8 +36,8 @@ const store = new Vuex.Store({
     redF(count) {
       count.commit('red');
     },
-    tabactiveF(tabindex,data) {
-      tabindex.commit('tabactive',data);
+    tabactiveF(pagetitle,data) {
+      pagetitle.commit('tabactive',data);
     }
   }
 })

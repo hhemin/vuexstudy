@@ -36,10 +36,6 @@ export default {
       console.log(this.$route.name)
     }
   },
-  created() {
-    // console.log(this.$route.meta.title)
-    
-  },
   mounted() {
     this.change(this.$route.name);
     this._Activetitle(this.$route.meta.title);
@@ -83,9 +79,7 @@ export default {
     ...mapActions({
       _Activetitle:'tabactiveF' 
     }),
-
     getActive(routername) {
-      
       const _Active = {
         'Home':() => {
           this.activeindex = 0;
