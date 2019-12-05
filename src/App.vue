@@ -1,20 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
+    <Tab></Tab>
   </div>
 </template>
 
 <script>
+import Tab from '@/components/tab'
 export default {
   name: 'App',
   created() {
     this.hhh()
   },
+  components:{
+    Tab
+  }
 }
 </script>
 
-<style>
+<style scope>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

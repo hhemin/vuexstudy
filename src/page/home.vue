@@ -50,6 +50,6 @@ import {mapActions,mapGetters,mapState,mapMutations} from 'vuex';
       ...mapGetters([
         'getterstate'
       ])
-    },
+    }
   }
 </script>
