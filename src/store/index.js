@@ -6,7 +6,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state:{
     count:1,
-    tabindex:0,// tab 导航栏默认第一个
+    tabindex:0,
   },
   // 检测state的变化，如果stare变化这个就触发
   getters:{
@@ -22,8 +22,9 @@ const store = new Vuex.Store({
     red(state) {
       state.count -=1;
     },
-    tabactive(state,index) {
-      state.tabindex = index;
+    tabactive(state,title) {
+      state.tabindex = title;
+      
       console.log(state.tabindex)
     } 
   },
@@ -35,8 +36,8 @@ const store = new Vuex.Store({
     redF(count) {
       count.commit('red');
     },
-    tabactiveF(tabindex,index) {
-      tabindex.commit('tabactive',index);
+    tabactiveF(tabindex,data) {
+      tabindex.commit('tabactive',data);
     }
   }
 })

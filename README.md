@@ -1,6 +1,6 @@
-# vuexdemo
+# vuexpro
 
-> 主要用来学习优化等等练习操作
+> 主要用来学习vuex，和一些组件优化
 
 ## Build Setup
 
@@ -22,4 +22,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## vuex study
 good stydu day day up～～～
 ## 展示区
-![image](./img/home.jpg)
+<!-- ![image](./img/home.jpg) -->
+<img src="./img/home.png" width="40%" alt="首页图">
