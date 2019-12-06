@@ -125,7 +125,4 @@ export default {
 .btnwap.active {
   background-color: #0d7eb1;
 }
-.btnwap:first-child{
-  /* border-right: 1px solid red; */
-}
 </style>
