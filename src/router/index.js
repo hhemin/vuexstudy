@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/page/home'
 import Order from '@/page/order'
-const Notfind = () => import(/* webpackChunkName: "notfind" */ '@/page/404.vue');
+// const Notfind = () => import(/* webpackChunkName: "notfind" */ '@/page/404.vue');
 
 Vue.use(Router)
 
@@ -21,6 +21,6 @@ export default new Router({
       component: Order,
       meta :{ title: "其他"} //用于给定网页名
     },
-    { path: '*', component: Notfind }
+    // { path: '*', component: Notfind }
   ]
 })
